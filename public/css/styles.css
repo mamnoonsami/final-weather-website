@@ -1,0 +1,138 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    color: #333333;
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#bonfire {
+    border-radius: 10px;
+    width: 60%;
+    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+header {
+    margin-top: 15px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+header a {
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(96, 100, 100)
+}
+
+.main-content {
+    flex-grow: 1;
+}
+
+.main-content p {
+    text-align: center;
+}
+
+footer {
+    border-top: 2px solid rgb(66, 171, 197);
+    background-color: rgb(235, 235, 235);
+    padding: 16px;
+}
+
+footer p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.form {
+    margin-top: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+input {
+    border: 1px solid rgb(230, 230, 230);
+    padding: 10px;
+    width: 76%;
+    border-radius: 10px;
+    padding-left: 30px;
+}
+
+form i {
+    position: absolute;
+    padding: 12px 0 0 10px;
+    color: rgb(150, 147, 147);
+}
+
+button {
+    width: 15%;
+    cursor: pointer;
+    border: 1px solid rgb(44, 161, 197);
+    background-color: rgb(44, 161, 197);
+    padding: 10px;
+    border-radius: 10px;
+    color: rgb(58, 58, 58);
+    transition: 0.5s;
+}
+
+button:hover {
+    background-color: rgb(56, 56, 56);
+    color: white;
+}
+
+.result {
+    margin: 50px auto;
+    padding: 20px;
+    width: 60%;
+    border-radius: 10px;
+}
+
+.result p {
+    text-align: center;
+}
+
+.result #temp {
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.top-logo {
+    height: 60px;
+    width: 67px;
+    margin: auto;
+}
+
+.top-logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+input:focus {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+textarea:focus,
+input:focus {
+    outline: none;
+}
